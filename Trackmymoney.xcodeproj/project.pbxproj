@@ -11,6 +11,8 @@
 		4F279F4126E133D00028DEFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F279F4026E133D00028DEFA /* ContentView.swift */; };
 		4F279F4326E133D50028DEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F279F4226E133D50028DEFA /* Assets.xcassets */; };
 		4F279F4626E133D50028DEFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F279F4526E133D50028DEFA /* Preview Assets.xcassets */; };
+		4F279F4E26E14ADD0028DEFA /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F279F4D26E14ADD0028DEFA /* Tabbar.swift */; };
+		4F279F5026E14B030028DEFA /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F279F4F26E14B030028DEFA /* Progress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		4F279F4226E133D50028DEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F279F4526E133D50028DEFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F279F4726E133D50028DEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F279F4D26E14ADD0028DEFA /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		4F279F4F26E14B030028DEFA /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				4F279F3E26E133D00028DEFA /* TrackmymoneyApp.swift */,
 				4F279F4026E133D00028DEFA /* ContentView.swift */,
+				4F279F4F26E14B030028DEFA /* Progress.swift */,
+				4F279F4D26E14ADD0028DEFA /* Tabbar.swift */,
 				4F279F4226E133D50028DEFA /* Assets.xcassets */,
 				4F279F4726E133D50028DEFA /* Info.plist */,
 				4F279F4426E133D50028DEFA /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F279F4E26E14ADD0028DEFA /* Tabbar.swift in Sources */,
 				4F279F4126E133D00028DEFA /* ContentView.swift in Sources */,
+				4F279F5026E14B030028DEFA /* Progress.swift in Sources */,
 				4F279F3F26E133D00028DEFA /* TrackmymoneyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
